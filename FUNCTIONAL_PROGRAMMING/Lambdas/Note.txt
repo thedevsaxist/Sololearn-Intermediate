@@ -1,0 +1,11 @@
+Creating a function normally (using def) assigns it to a variable automatically.
+Python allows us to create functions on the fly provided that they are created using lambda syntax.
+
+This approach is most commonly used when passing a simple function as an argument to another function. 
+The syntax consists of the lambda key word followed by a list of arguments, 
+a colon, and the expression to evaluate and return.
+
+Functions created using the lambda syntax are known as anonymous. lambdas are shorthand to create anonymous functions.
+
+lambda functions aren't as powerful as named functions. 
+They can only do things that require a single line expression - usually equivalent to a single line of code

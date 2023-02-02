@@ -1,0 +1,9 @@
+After a try/except statement, a finally block can follow. 
+It will execute after the try/except block, no matter if there was an exception or not.
+
+The finally block is useful, for example, when when working wit files and resources: 
+it can be used to make sure files and resources are closed or released regardless of whether an exception occurs.
+
+
+The else statement can also be used with try/except statements.
+In this case, the code within it is only executed if no error occurs in the try statement.

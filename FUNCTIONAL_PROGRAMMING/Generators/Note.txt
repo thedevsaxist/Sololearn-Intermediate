@@ -1,0 +1,17 @@
+Generators are a type of iterable, like list or tuples.
+Unlike lists, they don't allow indexing with arbitrary indices, 
+but they can still be iterated through with for loops.
+They can be created using functions and the yield statement.
+
+The yield statement is used to define a generator,
+replacing the return of a function to provide a result to its caller without destroying local variables.
+
+The yield keyword can be used more than once in a generator.
+But, if you call it more times than it was used in the generator, it will raise a 'StopIteration' error.
+
+The difference between list comprehension and generator expressions is that:
+list comprehension is created using square brackets while generator expression is created using parentheses.
+
+Using generators results in improved performance,
+which is the result of the lazy (on demand) generation of values, which translates to lower memory usage. 
+Furthermore, we do not need to wait until all the elements have been generated before we start to use them.

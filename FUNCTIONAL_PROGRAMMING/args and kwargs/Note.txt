@@ -1,0 +1,10 @@
+Python allows you to have functions with varying numbers of arguments.
+Using *args as a function parameter enables you to pass an arbitrary number of arguments to that function.
+The arguments are then accessible as the tuples args in the body of the function.
+The name args is just a convention; you can choose to use another.
+
+**kwargs (standing for keyword arguments) allows you to handle named arguments that you have not defined in advance.
+The keyword argument returns a dictionary in which the keys are the argument names, 
+and the values are the argument values
+
+It is important to note that args can't be defined after kwargs

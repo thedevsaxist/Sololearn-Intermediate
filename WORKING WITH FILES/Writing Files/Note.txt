@@ -1,0 +1,6 @@
+To write files, you use the write method.
+
+If you want to add content to an existing file, you can open it using the 'a' mode, which stands for 'append'
+
+The write mode returns the number of bytes written to a file, if successful
+To write something other than a string, it has to be converted to a string first

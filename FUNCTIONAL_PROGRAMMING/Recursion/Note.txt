@@ -1,0 +1,5 @@
+The fundamental part of recursion is self-reference -- functions calling themselves.
+It is used to solve problems that can be broken up into easier sub-problems of the same type.
+
+recursion can aso be indirect. one function can call a second, which call the first, which call the second, and so on.
+this can occur with any number of functions.

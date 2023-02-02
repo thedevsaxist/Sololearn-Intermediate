@@ -1,0 +1,7 @@
+The built-in functions map and filter are very useful higher-order functions 
+that operate on lists (or similar objects called iterables).
+
+The function map takes a function and an iterable as arguments, 
+and returns a new iterable with the function applied to each argument.
+
+The function filter filters an iterable by leaving only the items that match a condition (also called a predicate)

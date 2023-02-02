@@ -1,0 +1,24 @@
+Methods of objects we've looked at so far are called by an instance of a class, 
+which is then passed to the self parameter of the method.
+Class methods are different -- they are called by a class, which is passed to the cls parameter of the method.
+A common use of these are factory methods, which instantiate an instance of a class, 
+using different parameters than those usually passed to the class constructor.
+Class methods are marked with a classmethod decorator.
+
+Static methods are similar to class methods, except they don't receive any additional arguments;
+they are identical to normal functions that belong to a class.
+They are marked with a staticmethod decorator.
+
+Methods:
+>> def method(self, params):
+       Function used for instance or attributes of the object
+
+Class method:
+>> @classmethod
+>> def method(cls, params):
+       Function used for the class itself
+
+Static method:
+>> @staticmethod
+>> def method(params):
+       Like a normal function but inside a class

@@ -1,0 +1,46 @@
+Sets are similar to lists or dictionaries.
+Differences between sets and lists:
+>> sets are created using curly brackets, while lists are created using square brackets.
+>> items are added to lists using the add(), while for lists we use the append().
+>> lists are indexed while sets are not
+
+Differences between sets and dictionaries:
+>> dictionaries are created with pairs of keys and values, while sets are created with just single values.
+>> dicts are accessed using their key names while sets are accessed using their values.
+
+
+The are created using curly braces, and are unordered, which means they can't be indexed.
+
+Due to the way they're stored, it's faster to check whether an item is part of a set using the "in" operator, rather than part of a list.
+
+Sets cannot contain duplicate elements.
+
+Use sets when:
+>> You want values to be unique
+>> when order does not matter
+
+To create an empty set:
+>> False: not_set = {} <-- dictionary
+>> True: my_set = set() <-- set
+
+set() is a function that converts an iterable into a set.
+>> Input =  set([1, 2, 4])
+>> Ouput = {1, 2, 4}
+
+But in this case, no arguments are passed into set() function, therefore it will return an empty set.
+>> Input: set()
+>> Ouput: set()
+
+Sets are unordered, unindexed but hashed.
+
+You can use the add() function to add new items to the set, and remove() to delete a specific element.
+
+Duplicates will automatically get removed from the set.
+
+The len() can be used to print the number of elements in a set.
+
+Sets can be combined using mahematical operations:
+>> The union operator "|" combines two sets to form a new one containing items in either.
+>> The intersection operator "&" gets items only in both.
+>> The differnce operator "-" gets items in the first but not in the second.
+>> The symmeteric difference operator "^" gets items in either set, but not in both.

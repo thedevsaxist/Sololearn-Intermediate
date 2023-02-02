@@ -1,0 +1,15 @@
+To determine whether a key is in a dictionary, you can use 'in' and 'not in', just as you can for a list.
+The 'get' function does the same thing as indexing, but in the dictionary it returns another specified value instead.
+To determine how many items a dictionary has, use the len() function.
+For the get() function, it prints the specified value only when the key is not an element in the variable
+
+A get() is quite similar to:
+def search(z):
+    if z in data:
+        return data[z]
+    else:
+        return "Not found"
+
+print(search(z))
+
+This is essentially what the get function does

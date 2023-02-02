@@ -1,0 +1,15 @@
+Magic methods are methods that have double underscores at the beginning and end of their names.
+The are also known as dunders.
+They are used to create functionality that can't be represented as a normal method.
+
+One common use of them is operator overloading.
+This means defining operators for custom classes that allow operators such as + and * to be used on them.
+An example of magic methods is __add__ for +.
+
+The expression x + y  is translated into x.__add__(y).
+However, if x hasn't implemented __add__, and x and y are of different types,
+then y.__radd__(x) is called. 
+There are equivalent r methods for all magic methods just mentioned.
+
+if __ne__ is not implemented, it returns the opposite of __eq__.
+There are no other relationships between the other operators.

@@ -1,0 +1,10 @@
+Tuple unpacking allows you to assign each item in a collection to a variable.
+This can also be used to swap variables by doing a,b=b,a, since b,a on the right hand side forms the tuple (b,a) which is then unpacked.
+A variable that is prefaced with an asterisk(*) takes all values from the collection that are left over from the other variables.
+
+The unpacking operator (*) can be used with any iterable type, not just tuples or lists.
+For instance you can unpack range() which is an iterable type function.
+
+The double asterisk (**) is used for dictionaries or key-value pairs.
+
+It's very important to note that when you unpack tuple item(s) into a variable by using the (*) operator, you get a list not a tuple.

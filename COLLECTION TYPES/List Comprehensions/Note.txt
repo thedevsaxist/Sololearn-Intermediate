@@ -1,0 +1,5 @@
+List comprehension are a useful way of quickly creating lists whose contents obey a rule.
+
+List comprehensions are inspired by set-builder notation in mathematics.
+
+A list comprehension can also contain an if statement to enforce a condition on values in the list.

@@ -1,0 +1,7 @@
+Dictionaries are collection types that allow yo to map keys to arbitrary values
+Each element in a dictionary is represented by a key:value pair, and are accessed using the key.
+Dictionaries can be indexed in the same way as lists, using square brackets "[]" containing keys.
+Only immutable objects can be used as keys to dictionaries. Immutable objects are those that can't be changed.
+A key is allowed just a single value.
+Dictionaries can be set in a linear/horizontal manner. {"Kam":12, "Kami":24, } where "Kam" and "Kami" are keys.
+You can use strings, integers, booleans, and any other immutable type as dictionary keys.

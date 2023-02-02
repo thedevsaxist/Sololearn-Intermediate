@@ -1,0 +1,9 @@
+The contents of a file that has been opened in text mode can be read using the read method.
+
+To read only a certain amount of a file, you can provide the number of byte to read as the argument to the read function.
+Each ASCII character is 1 byte.
+
+To retrieve each line in a file, you can use the readlines() method to return a list 
+in which each element in the list is a line in the file.
+
+if you do not need the list for each line, you can simply iterate over the file variable

@@ -1,0 +1,9 @@
+Decorators provide a way to modify functions using other functions.
+This is ideal when you need to modify the functionality of functions that you don't want to modify.
+
+Python provides support to wrap a function in a decorator by pre-pending the function definition with
+a decorator name and the @ symbol.
+
+if we are defining a function we can "decorate" it with the @ symbol
+
+A single function can have multiple decorators

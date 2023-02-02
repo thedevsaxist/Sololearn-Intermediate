@@ -1,0 +1,9 @@
+Inheritance provides a way to share functionality between classes.
+To inherit a class from another class, put the superclass name in parentheses after the class name.
+
+A class that inherits from another class is called a subclass.
+A class that is inherited from is called a superclass.
+if a class inherits from another with the same attributes or methods, it overrides them.
+
+The function super is a useful inheritance-related function that refers to the parent class .
+It can be used to find the method with a certain name in an object's superclass.

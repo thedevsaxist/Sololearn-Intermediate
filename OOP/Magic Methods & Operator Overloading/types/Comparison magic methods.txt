@@ -1,0 +1,11 @@
+Python also provides magic methods for comparisons.
+
+__lt__ for <
+__le__ for <=
+__eq__ for ==
+__ne__ for !=
+__gt__ for >
+__lg__ for >=
+
+if __ne__ is not implemented, it returns the opposite of __eq__.
+There ae no other relationships between the other operators.

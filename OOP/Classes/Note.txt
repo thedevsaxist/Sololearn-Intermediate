@@ -1,0 +1,21 @@
+The focal point of Object Oriented Programming (OOP) are objects, which are created using classes.
+The class describes what the object will be, but is separated from the object itself. 
+In other words, a class can be defined as an objects blue print, description, or definition.
+You can use the same class as a blueprint for creating multiple different objects.
+
+Classes are created using the keyword class and an indented block, 
+which contains class methods (which are functions).
+
+The __init__ method is the most important method in a class.
+This is called when an instance (object) of the class is created, using the class name as a function.
+
+All methods must have self as their first parameter, although it isn't explicitly passed, python adds the 
+self argument to the list for you; you do not need to include it when you call the methods. Within a method definition, 
+self refers to the instance calling the method.
+
+Instances of a class have attributes, which are pieces of data associated with them.
+In an __init__ method, self.attribute can therefore be used to set the initial value of an instance's attributes.
+
+Classes can have other methods defined to add functionality to them.
+Remember, that all methods must have self as their first parameter.
+These methods are accessed using the same dot syntax as attributes.

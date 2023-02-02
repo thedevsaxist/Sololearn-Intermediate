@@ -1,0 +1,15 @@
+An exception occurs when something goes wrong, due to incorrect code or input. 
+When an exception occurs, the program immediately stops.
+
+An exception is an event which occurs during the execution of a program that disrupts the normal flow of the program.
+
+Different exceptions are raised for different reasons
+Common exceptions:
+ImportError: an import fails;
+IndexError: a list is indexed with an out-of-range number
+SyntaxError: the code can't be parsed properly because it doesn't follow python syntax;
+TypeError: a function is called on a value of an inappropriate type;
+ValueError: a function is called on a value of the correct type, but an inappropriate value
+
+Python has several other built-in exceptions, such as ZeroDivisionError and OSError. 
+Third-party libraries also often define their own exceptions

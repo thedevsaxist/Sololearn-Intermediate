@@ -1,0 +1,6 @@
+You can throw (or raise) exceptions when some conditions occur.
+For example, when you take code that needs to be in specific format,
+you can throw an exception when it doesn't meet the requirements
+This is done using the raise statement.
+
+Exceptions can be raised with arguments that give detail about them.

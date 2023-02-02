@@ -1,0 +1,17 @@
+Functional Programming is a style of programming that (as the name suggests) is based around functions.
+A key part of functional programming is higher-order function. 
+Higher-order functions take other functions as their arguments, or return them as results.
+
+Functional programming seeks to use *pure functions*. Pure functions have no side effects, 
+and return a value that depends on its arguments.
+This is how functional in math work: for example, the *cos(x)* will, for the same value of *x*, always return the same result.
+
+Using pure functions has both advantages and disadvantages.
+Pure functions are:
+>> easier to reason about and test.
+>> more efficient. Once the function has been evaluated for an input, 
+the result can be stored and referred to the next time the function of that input is needed, 
+reducing the number of times the function is called. this is called *memoization*
+>> easier to run in parallel.
+
+Pure functions are more difficult to write in some situations.

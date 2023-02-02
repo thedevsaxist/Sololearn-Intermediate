@@ -1,0 +1,17 @@
+Tuples are very similar to lists, except that they are immutable (they cannot be changed). 
+Also, they are created using parentheses, rather than square brackets.
+
+You can access the values in the tuple with their index, just like lists.
+
+EXAMPLE: words = ("spam", "eggs", "sausages").
+words[1] = "eggs"
+
+Trying to reassign a value in a tuple causes an error.
+
+Like lists and dictionaries, tuples can be nested within each other.
+
+Tuples can be created without the parentheses by just seperating the values with commas.
+
+Tuples are faster than lists, but they cannot be changed. 
+
+Tuples can be used to output multiple values from a function.
